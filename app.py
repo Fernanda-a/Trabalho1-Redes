@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, flash, jsonify,redirect
-from gepeto2 import enviar_dados
+from crypto import enviar_dados
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "8jUCWYBssHyW72CkhmEWOw"
